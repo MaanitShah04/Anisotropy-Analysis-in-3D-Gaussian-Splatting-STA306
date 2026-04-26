@@ -8,6 +8,8 @@ pip install plyfile numpy matplotlib pandas scipy scikit-learn scikit-image pill
 ```
 ---
 
+NOTE: Replace `<run_id>`
+
 ### 1 - Install
  
 ```bash
