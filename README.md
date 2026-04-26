@@ -1,6 +1,12 @@
 # Anisotropy Analysis in 3D Gaussian Splatting
 STA306 Statistical Computing Project (Winter 2026)
 
+## Render Example
+
+https://github.com/user-attachments/assets/a48ceb8b-5402-49c4-b596-87f117883b6a
+
+---
+
 ## Requirements
  
 ```
@@ -65,8 +71,3 @@ git clone https://github.com/camenduru/splat viewer
 python serve_splat.py --dir viewer
 # opens http://localhost:7860 in browser
 ```
-
----
-## Render Example
-
-https://github.com/user-attachments/assets/a48ceb8b-5402-49c4-b596-87f117883b6a
