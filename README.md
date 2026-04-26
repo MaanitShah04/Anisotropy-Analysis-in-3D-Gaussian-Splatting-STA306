@@ -38,7 +38,7 @@ Saves plots and `anisotropy_summary.csv` to `results/`.
 python gaussian-splatting/render.py -m gaussian-splatting/output/<run_id>
 ```
  
-### 5 - Evaluate render quality
+### 5 - Render quality evalualtion
  
 ```bash
 python evaluate_renders.py \
@@ -48,7 +48,7 @@ python evaluate_renders.py \
  
 Saves `psnr_results.csv` and quality plots to `results/`.
  
-### 6 - Convert & view in browser
+### 6 - Viewer
  
 ```bash
 # Convert
@@ -56,10 +56,10 @@ python convert_ply_to_splat.py \
     --ply gaussian-splatting/output/<run_id>/point_cloud/iteration_30000/point_cloud.ply \
     --out viewer/splat.splat
  
-# Clone viewer (one-time)
+# Clone viewer repo
 git clone https://github.com/camenduru/splat viewer
  
 # Serve
 python serve_splat.py --dir viewer
-# → opens http://localhost:7860 in your browser automatically
+# opens http://localhost:7860 in browser
 ```
