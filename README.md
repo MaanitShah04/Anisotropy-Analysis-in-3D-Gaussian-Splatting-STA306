@@ -8,13 +8,13 @@ pip install plyfile numpy matplotlib pandas scipy scikit-learn scikit-image pill
 ```
 ---
 
-### 1 — Install
+### 1 - Install
  
 ```bash
 bash setup.sh
 ```
  
-### 2 — Train
+### 2 - Train
  
 ```bash
 python gaussian-splatting/train.py -s gaussian-splatting/tandt/train
