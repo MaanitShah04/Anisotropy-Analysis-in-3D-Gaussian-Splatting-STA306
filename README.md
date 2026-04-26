@@ -7,7 +7,17 @@ https://github.com/user-attachments/assets/a48ceb8b-5402-49c4-b596-87f117883b6a
 
 ---
 
-## Requirements
+![PSNR Analysis](analysis_plots/psnr_analysis.png)
+
+The figure above presents a visual breakdown of reconstruction quality in 3D Gaussian Splatting through the lens of anisotropy. The top row compares the ground truth and rendered output for a training scene, alongside an anisotropic mask highlighting the top 30% of highest-variance regions. The bottom row shows the absolute error map (brighter = higher error), an error map overlaid with anisotropic boundaries (cyan contours), and a bar chart of mean PSNR by region type.
+
+[Report](report/STA306_Report.pdf)
+
+---
+
+## Instructions to Run
+
+### Requirements
  
 ```
 pip install plyfile numpy matplotlib pandas scipy scikit-learn scikit-image pillow
